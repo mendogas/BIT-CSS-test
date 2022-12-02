@@ -1,0 +1,98 @@
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    margin-bottom: 100px !important;
+    text-transform: uppercase;
+}
+p {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.btn {
+    padding: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1em;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0.2em solid #000000;
+    width: 20%;
+    flex-direction: row;
+}
+
+.btn.btn-white {
+    background-color: #f3f3f3;
+    color: #000000;
+    border: 0.2em solid #f3f3f3;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    text-align: left;
+}
+header > nav > a {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    margin-right: 50px;
+}
+
+.hero {
+    padding-top: 25px;
+    background-image: url(../img/bg.jpg);
+    height: 1346px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    gap: 27px;
+    flex-wrap: wrap;
+    opacity: 50%;
+}
+@media (max-width: 992px) {
+    .hero {
+        background-size: cover;
+    }
+}
+h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    margin-top: 163px !important;
+}
+
+img {
+    width: 316px;
+    height: 279px;
+}
+.kodel {
+    padding-top: 108px;
+    padding-bottom: 60px;
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 44px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    section > nav > a {
+        font-size: 17px;
+    }
+}
